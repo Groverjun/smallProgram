@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/page1/page1",
+    "pages/echarts/echarts",
+    "pages/bar/index",
+    "pages/map/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#333",
+    "backgroundColor": "#f3f3f3",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "images/icon_home.png",
+        "selectedIconPath": "images/icon_home_selected.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/icon_cate.png",
+        "selectedIconPath": "images/icon_cate_selected.png",
+        "pagePath": "pages/page1/page1",
+        "text": "分类"
+      },
+      {
+        "iconPath": "images/icon_cart.png",
+        "selectedIconPath": "images/icon_cart_selected.png",
+        "pagePath": "pages/map/index",
+        "text": "图表"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "miniprogram_npm/vant-weapp/button/index",
+    "van-tab": "miniprogram_npm/vant-weapp/tab/index",
+    "van-tabs": "miniprogram_npm/vant-weapp/tabs/index",
+    "van-action-sheet": "miniprogram_npm/vant-weapp/action-sheet/index",
+    "van-area": "miniprogram_npm/vant-weapp/area/index",
+    "van-toast": "miniprogram_npm/vant-weapp/toast/index",
+    "van-switch": "miniprogram_npm/vant-weapp/switch/index",
+    "ec-canvas": "miniprogram_npm/ec-canvas/ec-canvas"
+  }
+}

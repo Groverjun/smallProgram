@@ -1,0 +1,9 @@
+<!--城市选择器-->
+<van-switch checked="{{ checked }}" bind:change="onChange" />
+000
+<van-action-sheet show="{{ checked }}" bind:close="clsArea">
+    <van-area area-list="{{ AreaList }}" bind:confirm="successArea" bind:cancel="clsArea"/>
+</van-action-sheet>
+<!-- 提示文字 -->
+<van-toast id="van-toast" />
+<!-- /提示文字 -->
